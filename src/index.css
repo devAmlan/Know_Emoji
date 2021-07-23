@@ -7,7 +7,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  text-align: center;
+  color:#A4133C;
+}
+.inputfield
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputfield input{
+  width:300px;
+  height:25px;
+  border:2px solid #1C7293;
+  border-radius:3px;
+}
+.inputfield input:focus{
+  outline: none;
+}
+h3{
+  text-align: center;
+  color:#3E1F47;
+}
+ul{
+  list-style:none;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+li{
+  margin:20px;
+  font-size:20px;
+}
+.emojiarea{
+
+  margin-right:30px;
 }
